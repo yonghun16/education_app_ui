@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .phone {
+    width: 100%;
+  }
+
+  .cards {
+    .cards__card {
+      .card__title {
+        font-size: 24px;
+      }
+    }
+  }
+}

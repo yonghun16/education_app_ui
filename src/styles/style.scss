@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "_reset.scss";
 
 body {
   background: #dce6d1;
@@ -103,3 +103,6 @@ body {
     }
   }
 }
+
+// 미디어쿼리
+@import "_small";
