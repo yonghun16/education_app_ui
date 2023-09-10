@@ -1,19 +1,37 @@
 @import "reset.css";
 
-.container {
+body {
+  background: #dce6d1;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  .box {
-    width: 200px;
-    height: 200px;
-    background-color: tomato;
-  }
-  .box2 {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+  height: 100vh;
+}
+
+.phone {
+  background-color: Black;
+  border-radius: 50px;
+  height: 95vh;
+  width: 420px;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  overflow-x: scroll;
+  .header__list {
+    display: flex;
+    gap: 10px;
+    color: White;
+    width: max-content;
+    .header__list-item {
+      border: 1px solid rgba($color: #fff, $alpha: 0.6);
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .header__list-item--inverted {
+      background-color: White;
+      color: black;
+    }
   }
 }
