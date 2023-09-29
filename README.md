@@ -8,7 +8,7 @@
 		<a href="https://yonghun16.github.io/education_app_ui/"> Clone 보러가기 </a>
 	</li>
 	<li>
-		반응형(O), 백엔드(X)
+		Single-page
 	</li>
 </ul>
 </br>
